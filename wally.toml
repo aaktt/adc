@@ -1,0 +1,16 @@
+[package]
+name = "jin/adc"
+version = "0.1.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+[dependencies]
+Replecs = "pepeeltoro41/replecs@0.2.3"
+Jecs = "ukendio/jecs@0.9.0"
+JecsUtils = "pepeeltoro41/jecs-utils@1.3.0"
+
+[server-dependencies]
+ProfileStore = "vyon/profilestore@1.0.3"
+Planck = "yetanotherclown/planck@0.2.0"
+Planck-runservice = "yetanotherclown/planck-runservice@0.2.0"
+

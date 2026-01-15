@@ -1,0 +1,37 @@
+{
+  "name": "ADC",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Packages": {
+        "$path": "Packages"
+      },
+      "Shared": {
+        "$path": "src/ReplicatedStorage/Shared",
+        "$ignoreUnknownInstances": true
+      },
+      "Dependencies": {
+        "$path": "src/ReplicatedStorage/Dependencies",
+        "$ignoreUnknownInstances": true
+      },
+      "Client": {
+        "$path": "src/ReplicatedStorage/Client",
+        "$ignoreUnknownInstances": true,
+        "$properties": {
+          "RunContext": "Client"
+        }
+      }
+    },
+    "ServerScriptService": {
+            "Packages": {
+        "$path": "ServerPackages"
+      },
+      "Engine": {
+        "$path": "src/ServerScriptService/Engine"
+      },
+      "Server": {
+        "$path": "src/ServerScriptService/Server"
+      }
+    }
+  }
+}
